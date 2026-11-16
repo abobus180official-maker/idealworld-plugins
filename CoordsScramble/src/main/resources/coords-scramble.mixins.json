@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.coords.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "DebugHudMixin",
+    "ResourcePackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

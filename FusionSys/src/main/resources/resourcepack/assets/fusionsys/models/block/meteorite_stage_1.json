@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "fusionsys:block/meteorite_stage_1"
+  }
+}

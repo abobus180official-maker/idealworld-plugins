@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "pack_format": 34,
+    "description": "FusionSys — кастомные текстуры предметов и блоков",
+    "supported_formats": [34, 42]
+  }
+}

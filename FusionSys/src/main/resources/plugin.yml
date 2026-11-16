@@ -1,0 +1,17 @@
+name: FusionSys
+version: ${version}
+main: dev.fusionsys.FusionSysPlugin
+api-version: 1.21
+authors: [Fusion]
+description: Расы, зелья размера, динамический барьер и измерение Void. Блоки/предметы/зачарования перенесены в FusionEngine.
+softdepend: [FusionEngine]
+
+commands:
+  fusionsys:
+    description: FusionSys — управление системами плагина.
+    usage: /fusionsys <reload|race>
+    permission: fusionsys.command
+permissions:
+  fusionsys.command:
+    description: Разрешает использовать /fusionsys.
+    default: op

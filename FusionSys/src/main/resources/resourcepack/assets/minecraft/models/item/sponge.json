@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/sponge",
+  "overrides": [
+    { "predicate": { "custom_model_data": 1010 }, "model": "fusionsys:block/hematite" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fusion-engine",
+  "version": "${version}",
+  "name": "FusionEngine Mod",
+  "description": "Клиентский мод-редактор FusionEngine: управление стойками для брони, сценариями, мистикой и звуками через GUI.",
+  "authors": ["Fusion"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fusion-engine/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["dev.fusion.FusionMod"],
+    "client": ["dev.fusion.FusionModClient", "dev.fusion.F3ScrambleClient"]
+  },
+  "mixins": [
+    { "config": "fusion-engine.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

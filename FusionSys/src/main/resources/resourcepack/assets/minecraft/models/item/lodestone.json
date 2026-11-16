@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/lodestone",
+  "overrides": [
+    { "predicate": { "custom_model_data": 1020 }, "model": "fusionsys:block/magnet" }
+  ]
+}
